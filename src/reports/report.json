@@ -1,0 +1,90 @@
+{
+    "total_records": 1001,
+    "errors_for_web01": [
+        "Timeout while connecting to upstream",
+        "Failed to send email notification",
+        "Unhandled exception in worker process",
+        "Failed to write to disk",
+        "Permission denied while accessing file",
+        "Replication lag exceeded limit",
+        "Timeout while connecting to upstream",
+        "Unhandled exception in worker process",
+        "Failed to write to disk",
+        "Service unavailable",
+        "Failed to write to disk",
+        "Timeout while connecting to upstream",
+        "Failed to write to disk",
+        "Backup job failed",
+        "Failed to send email notification",
+        "Replication lag exceeded limit",
+        "Permission denied while accessing file",
+        "Permission denied while accessing file",
+        "Unhandled exception in worker process",
+        "Unhandled exception in worker process",
+        "Failed to send email notification",
+        "Database connection failed",
+        "Authentication service error",
+        "Backup job failed"
+    ],
+    "messages_count_by_server": {
+        "web01": {
+            "INFO": 49,
+            "WARNING": 30,
+            "ERROR": 24
+        },
+        "mail01": {
+            "INFO": 69,
+            "WARNING": 31,
+            "ERROR": 12
+        },
+        "backup01": {
+            "INFO": 64,
+            "WARNING": 32,
+            "ERROR": 12
+        },
+        "db01": {
+            "INFO": 53,
+            "WARNING": 29,
+            "ERROR": 9
+        },
+        "api02": {
+            "INFO": 68,
+            "WARNING": 45,
+            "ERROR": 5
+        },
+        "cache01": {
+            "INFO": 69,
+            "WARNING": 21,
+            "ERROR": 8
+        },
+        "api01": {
+            "INFO": 60,
+            "WARNING": 27,
+            "ERROR": 12
+        },
+        "web02": {
+            "INFO": 52,
+            "WARNING": 33,
+            "ERROR": 3
+        },
+        "auth01": {
+            "INFO": 64,
+            "WARNING": 27,
+            "ERROR": 10
+        },
+        "db02": {
+            "INFO": 53,
+            "WARNING": 22,
+            "ERROR": 7
+        },
+        "new-server01": {
+            "INFO": 0,
+            "WARNING": 0,
+            "ERROR": 1
+        }
+    },
+    "server_with_max_warnings": {
+        "server": "api02",
+        "warnings_count": 45
+    }
+}
